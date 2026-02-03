@@ -33,18 +33,26 @@ Al visitar http://10.88.0.2:9090, encontré una página de login.
 
 ### Análisis de la Vulnerabilidad
 
-Identifiqué el puerto 9090 donde corría un servicio de protocolo http que presentaba un panel de inicio de sesión 'openfire' cuya versión es 4.7.4. Haciendo búquedas en fuentes de acceso abierto se indica que este panel presenta una vulnerabilidad.
-La herramienta metasloit de Parrot identifica la vulnerabilidad con en 
+Identifiqué el puerto 9090 donde corría un servicio de protocolo http que presentaba un panel de inicio de sesión *openfire* cuya versión es *4.7.4*. Haciendo búquedas en fuentes de acceso abierto se indica que este panel presenta una vulnerabilidad.
+La herramienta ***metasploit*** de Parrot identifica la siguiente vulnerabilidad:
+
+  * CVE: **CVE-2023-32315**
+
 
 ### Ejecución del Exploit
 
-Lancé por consola metasploit:
+Lancé por consola ***metasploit***:
 
 ```bash
 [msf](Jobs:0 Agents:0) exploit(multi/http/openfire_auth_bypass_rce_cve_2023_32315) >> run
 ```
 
 ![alt text](<Metasploit_VirtualBox_ParrotOS Security Edition ISO_03_02_2026_10_19_26.png>)
+
+
+Logro entrar en la máquina como **root**
+
+![alt text](<Metasploit_VirtualBox_ParrotOS Security Edition ISO_03_02_2026_19_03_28.png>)
 
 <br>
 
