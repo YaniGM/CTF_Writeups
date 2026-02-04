@@ -39,7 +39,7 @@ La herramienta ***metasploit*** de Parrot identifica la siguiente vulnerabilidad
   * CVE: **CVE-2023-32315**
 
 
-![alt text](<images/OpenFire_VirtualBox_ParrotOS Security Edition ISO_04_02_2026_00_11_25.png>)
+![alt text](<images/OpenFire_VirtualBox_ParrotOS Security Edition ISO_04_02_2026_01_59_00.png>)
 
 
 ### Ejecución del Exploit
