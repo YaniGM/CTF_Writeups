@@ -45,7 +45,7 @@ La herramienta ***metasploit*** de Parrot identifica la siguiente vulnerabilidad
   * CVE: **CVE-2023-32315**
 
 
-![alt text](<images/OpenFire_VirtualBox_ParrotOS Security Edition ISO_04_02_2026_01_59_00.png>)
+![alt text](<images/VirtualBox_ParrotOS Security Edition ISO_05_02_2026_09_53_50.png>)
 
 
 ### Ejecución del Exploit
@@ -55,12 +55,12 @@ Lancé por consola ***metasploit***:
 ```bash
 [msf](Jobs:0 Agents:0) exploit(multi/http/openfire_auth_bypass_rce_cve_2023_32315) >> run
 ```
-![alt text](<images/Metasploit_VirtualBox_ParrotOS Security Edition ISO_03_02_2026_10_19_26.png>)
+![alt text](<images/VirtualBox_ParrotOS Security Edition ISO_05_02_2026_10_03_54.png>)
 
 
 Logro entrar en la máquina como **root**
 
-![alt text](<images/Metasploit_VirtualBox_ParrotOS Security Edition ISO_03_02_2026_19_03_28.png>)
+![alt text](<images/VirtualBox_ParrotOS Security Edition ISO_05_02_2026_10_13_15.png>)
 
 <br>
 
