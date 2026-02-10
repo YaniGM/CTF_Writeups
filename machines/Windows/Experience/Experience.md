@@ -151,8 +151,6 @@ El fallo reside específicamente en la biblioteca ``netapi32.dll``. Ocurre cuand
 
 ## 6. 📚 Referencias y Herramientas
 
-  *## 6. 📚 Referencias y Herramientas
-
   * **Vulnerabilidad (CVE):** [CVE-2008-4250 (NIST Database)](https://nvd.nist.gov/vuln/detail/CVE-2008-4250)
 
   * **Boletín del Fabricante:** [Microsoft Security Bulletin MS08-067](https://learn.microsoft.com/en-us/security-updates/securitybulletins/2008/ms08-067)
