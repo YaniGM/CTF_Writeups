@@ -103,6 +103,9 @@ Dentro de la sesión de **Meterpreter** ejecuto ``sysinfo`` y ``getuid``
 Abro una shell en la sesión de **Meterpreter** mediante ``shell``
 
 ### 🏆 Root Flag: ``whoami`` -> ``nt Authority\System``
+
+<br>
+<br>
 <br>
 
 ## 5. 👩‍💻 El Rincón del Desarrollador
@@ -149,7 +152,7 @@ Abro una shell en la sesión de **Meterpreter** mediante ``shell``
 
     * [Metasploit Framework](https://www.metasploit.com/)
 
-* **Módulo Exploit:** `exploit/windows/smb/ms17_010_eternalblue`
+    * **Módulo Exploit:** `exploit/windows/smb/ms17_010_eternalblue`
 
 ---
 
