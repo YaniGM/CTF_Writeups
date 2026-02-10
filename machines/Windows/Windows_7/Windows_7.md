@@ -139,6 +139,8 @@ Abro una shell en la sesión de **Meterpreter** mediante ``shell``
 **C. La Solución de Red (Firewall):** El puerto 445 nunca debería estar expuesto directamente a Internet.
 
   * *Acción*: Configurar el firewall perimetral y el firewall de Windows para bloquear el tráfico entrante al puerto 445 desde IPs no confiables. 
+
+<br>
 <br>
 
 ## 6. 📚 Referencias y Herramientas
