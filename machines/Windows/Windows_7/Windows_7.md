@@ -105,8 +105,6 @@ Abro una shell en la sesión de **Meterpreter** mediante ``shell``
 ### 🏆 Root Flag: ``whoami`` -> ``nt Authority\System``
 
 <br>
-<br>
-<br>
 
 ## 5. 👩‍💻 El Rincón del Desarrollador
 
@@ -140,7 +138,6 @@ Abro una shell en la sesión de **Meterpreter** mediante ``shell``
 
   * *Acción*: Configurar el firewall perimetral y el firewall de Windows para bloquear el tráfico entrante al puerto 445 desde IPs no confiables. 
 
-<br>
 <br>
 
 ## 6. 📚 Referencias y Herramientas
