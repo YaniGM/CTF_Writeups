@@ -102,7 +102,7 @@ Dentro de la sesión de **Meterpreter** ejecuto ``sysinfo`` y ``getuid``
 
 Abro una shell en la sesión de **Meterpreter** mediante ``shell``
 
-### 🏆 Root Flag: ``whoami`` -> ``nt Authority\System``
+### 🏆 Root Flag: ``whoami`` -> ``nt Authority\System``<br><br><br>
 
 <br>
 
