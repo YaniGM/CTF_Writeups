@@ -126,7 +126,7 @@ Esta vulnerabilidad es un desbordamiento de búfer basado en pila (Stack-based B
 El fallo reside específicamente en la biblioteca ``netapi32.dll``. Ocurre cuando el sistema intenta procesar una ruta de red (RPC) especialmente manipulada a través de la función ``NetPathCanonicalize()``. Esta función, encargada de "limpiar" las rutas de directorios, falla al calcular el espacio necesario en memoria cuando recibe caracteres especiales diseñados maliciosamente.
 
 
-**Impacto::**
+**Impacto:**
 
 * Permite la Ejecución Remota de Código (RCE) sin necesidad de autenticación.
 * El código inyectado se ejecuta con privilegios de SYSTEM (el nivel más alto en Windows), lo que otorga control total sobre la máquina.
