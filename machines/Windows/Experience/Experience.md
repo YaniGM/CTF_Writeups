@@ -136,16 +136,13 @@ El fallo reside específicamente en la biblioteca ``netapi32.dll``. Ocurre cuand
 ### ✅ Solución Propuesta (Remediation)
 
 1. **Parcheado (Patching):**
-
-  * Aplicar inmediatamente la actualización de seguridad MS08-067 (KB958644) proporcionada por Microsoft. Esta actualización corrige la forma en que netapi32.dll valida las cadenas de ruta antes de copiarlas a la memoria.
-
+     * Aplicar inmediatamente la actualización de seguridad MS08-067 (KB958644) proporcionada por Microsoft. Esta actualización corrige la forma en que netapi32.dll valida las cadenas de ruta antes de copiarlas a la memoria.<br><br>
+  
 2. **Seguridad Perimetral (Firewall):**
-
-  * Bloquear el tráfico entrante en los puertos 139 y 445 (SMB/RPC) desde redes no confiables o Internet.
+     * Bloquear el tráfico entrante en los puertos 139 y 445 (SMB/RPC) desde redes no confiables o Internet.<br><br>
 
 3. **Deshabilitar Servicios Innecesarios:**
-
-  * Si la máquina no necesita compartir archivos o impresoras, se debe deshabilitar el servicio "Server" y "Computer Browser".
+     * Si la máquina no necesita compartir archivos o impresoras, se debe deshabilitar el servicio "Server" y "Computer Browser".
 
 <br>
 
